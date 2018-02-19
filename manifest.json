@@ -1,0 +1,20 @@
+{ 
+    "manifest_version": 2, 
+    "name": "百度指数", 
+    "version": "1.0", 
+    "description": "爬取百度指数变换数据插件.危欢Q:798159421", 
+    "browser_action": { 
+    }, 
+    "permissions": [ 
+    "http://*/", 
+    "bookmarks", 
+    "tabs", 
+    "history" 
+    ] , 
+    "content_scripts": [ 
+    { 
+    "matches": ["https://zhishu.baidu.com/*"], 
+    "js": ["zhishu.js"] 
+    } 
+    ] 
+}
