@@ -15,3 +15,8 @@
 
 ## 打开百度指数的页面，就能下载数据和图片
 未完待续...
+
+##Server端
+Server使用nodejs restAPI开发，用来控制key，也就是控制client的状态。
+因为涉及到跨域，所以使用jsonp进行数据交换.
+server API需要用express。这里只提供api文件，server_api.js
